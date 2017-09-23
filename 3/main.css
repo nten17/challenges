@@ -5,12 +5,23 @@ body{
 }
 
 h1{
-  font-size: 5em;
+  font-size: 6rem;
   margin: 0;
 }
 
 h2{
   text-align: center;
+  font-weight: normal;
+  font-size: 2.2rem;
+}
+
+h3{
+  font-size: 2.2rem;
+}
+
+p{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .heading{
@@ -32,7 +43,10 @@ h2{
 .subheading{
   font-size: 2.2em;
   font-weight: normal;
-  margin-top: -40px;
+}
+
+#creator{
+  margin-top: -2%;
 }
 
 .information{
@@ -42,6 +56,7 @@ h2{
   border-left-style: solid;
   border-left-width: thin;
   border-left-color: white;
+  font-size: .8rem;
 }
 
 .weight-navigation{
@@ -53,6 +68,48 @@ h2{
 
 .weight-item{
   display: inline-block;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.regular-section{
+  background: purple;
+  /*display: flex;
+  flex-direction: column;*/
+  width: 100vw;
+  padding: 5%;
+}
+
+#regular-weight{
+  font-weight: normal;
+  margin: 0;
+  border-bottom-style: solid;
+}
+
+.sizes-sentences{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.sentences{
+  /*display: flex;
+  flex-direction: column;*/
+  margin-top: 2%;
+}
+
+.size-24px{
+  font-size: 24px;
+}
+
+.size-36px{
+  font-size: 36px;
+}
+
+.size-48px{
+  font-size: 48px;
+}
+
+.size-96px{
+  font-size: 96px;
 }
