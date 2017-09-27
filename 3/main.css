@@ -28,7 +28,7 @@ p{
 }
 
 .heading{
-  background: blue;
+  background: mediumblue;
   margin: 0;
 }
 
@@ -76,12 +76,14 @@ p{
 }
 
 .section{
-  background: purple;
   /*display: flex;
   flex-direction: column;*/
   /*width: 100vw;*/
   padding: 5%;
+}
 
+.regular{
+  background: navy;
 }
 
 #regular-weight{
@@ -108,7 +110,6 @@ table, th, td{
 
 td{
   padding-right: 5%;
-  padding-top: 2%;
   /*background: blue;*/
 }
 
@@ -164,7 +165,7 @@ tr{
 
 .bold{
   font-weight: bold;
-  background: red;
+  background: indigo;
 }
 
 #bold-weight{
@@ -173,3 +174,38 @@ tr{
   border-bottom-style: solid;
   border-bottom-width: thin;
   padding-bottom: 2%;
+}
+
+.bold-italic{
+  font-weight: bold;
+  background: black;
+}
+
+#bold-italic-weight{
+  font-weight: bold;
+  margin: 0;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 2%;
+}
+
+.italic{
+  font-weight: normal;
+  background: lightskyblue;
+}
+
+#italic-weight{
+  font-weight: normal;
+  margin: 0;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 2%;
+}
+
+.additional{
+  background: mediumblue;
+  padding: 5%;
+  margin: 0;
+  border-left-style: none;
+  /*font-size: 1rem;*/
+}
