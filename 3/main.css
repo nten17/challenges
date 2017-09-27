@@ -13,6 +13,9 @@ h2{
   text-align: center;
   font-weight: normal;
   font-size: 2.2rem;
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+  padding-bottom: 5%;
 }
 
 h3{
@@ -72,30 +75,75 @@ p{
   margin-right: 5%;
 }
 
-.regular-section{
+.section{
   background: purple;
   /*display: flex;
   flex-direction: column;*/
-  width: 100vw;
+  /*width: 100vw;*/
   padding: 5%;
+
 }
 
 #regular-weight{
   font-weight: normal;
   margin: 0;
   border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 2%;
 }
 
-.sizes-sentences{
+.table{
+  margin-top: 3%;
+}
+
+table{
+  text-align: left;
+  border-collapse: collapse;
+  margin; 0;
+}
+
+table, th, td{
+  /*border: 1px solid black;*/
+}
+
+td{
+  padding-right: 5%;
+  padding-top: 2%;
+  /*background: blue;*/
+}
+
+tr{
   display: flex;
-  align-content: center;
-  flex-direction: row;
+  align-content: flex-start;
+  padding-right: 8%;
+  /*background: yellow;*/
 }
 
-.sentences{
+/*.sizes-sentences{
+  display: flex;
+  /*align-content: center;
+  flex-direction: row;*/
+  /*margin-top: 2%;
+  background: black;
+}*/
+
+/*.sentences{*/
   /*display: flex;
   flex-direction: column;*/
-  margin-top: 2%;
+  /*background: yellow;
+  padding-right: 2%;
+  padding-left: 2%;
+}*/
+
+/*.sizes{
+  background: blue;
+  padding-right: 2%;
+  display: inline-block;
+  font-size: inherit;
+}*/
+
+.sentence{
+  padding-right: 0;
 }
 
 .size-24px{
@@ -113,3 +161,15 @@ p{
 .size-96px{
   font-size: 96px;
 }
+
+.bold{
+  font-weight: bold;
+  background: red;
+}
+
+#bold-weight{
+  font-weight: bold;
+  margin: 0;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 2%;
