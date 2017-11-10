@@ -7,8 +7,8 @@
  }
 
 .button {
-  color: white;
-  width: 100px;
+  /*color: white;
+  width: 100px;*/
   transition: all 400ms ease-out;
 
 }
@@ -16,6 +16,7 @@
 .button:hover {
   color: blue;
   transform: scale(2);
+  cursor: pointer;
 }
 
 .multi-fade {
@@ -48,9 +49,9 @@
   /*position: absolute;*/
 }
 
-/*.bounce:hover{
-  transform: translateY(-50px);
-}*/
+.bounce:hover{
+  cursor: pointer;
+}
 
 .bouncing {
   animation-name: bouncing;
